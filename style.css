@@ -9,7 +9,13 @@
       background-color: #f8f8f8;
     }
 
-   
+   h2{
+  font-family: "Dancing Script", cursive;
+  font-optical-sizing: auto;
+  font-weight: 500; /* You can change this to 400, 600, or 700 as needed */
+  font-style: normal;
+}
+
     .navbar {
       display: flex;
       justify-content: space-between;
