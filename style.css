@@ -583,3 +583,23 @@
 
 
 
+
+
+
+
+
+#videof {
+  width: 560px;
+  height: 315px;
+  max-width: 100%;
+}
+
+/* 📱 Responsive iframe on screens <= 768px */
+@media (max-width: 768px) {
+  #videof {
+    width: 100%;
+    height: auto;
+    aspect-ratio: 16 / 9;
+  }
+}
+
