@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Popup Form</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <div id="navall">
+        <nav class="navbar">
+            <a id="logo" href="#" class="logo">Pvpatil</a>
+
+            <div class="menu-toggle" id="menu-toggle">
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+
+            <ul id="nav-links">
+                <li><a href="#services">Services</a></li>
+                <li>
+                    <div class="navbar">
+
+                        <div>
+                            <a id="enquiryBtn">Enquiry</a>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <a href="#">Pojects ▾</a>
+                    <div class="dropdown">
+                        <a href="#new-projects">Residential</a>
+                        <a href="#projects">Commercial</a>
+                    </div>
+                </li>
+                <li><a href="#about">Aboutus</a></li>
+            </ul>
+        </nav>
+    </div>
+
+
+<br>
+
+
+    <!-- Enquiry Popup Form -->
+    <div id="popup" class="popup">
+        <div class="popup-content">
+            <span class="close-btn" id="closeBtn">&times;</span>
+            <h2>Request a call back</h2>
+            <form>
+                <label>Name*</label>
+                <input type="text" placeholder="Enter your name" required />
+
+                <label>E-Mail ID*</label>
+                <input type="email" placeholder="Enter your email" required />
+
+                <label>Select City*</label>
+                <select required>
+                    <option value="">Select City</option>
+                    <option value="Nashik">Nashik</option>
+                    <option value="Dhule">Dhule</option>
+                    <option value="Pune">Pune</option>
+                </select>
+
+                <label>+91 Enter Mobile Number*</label>
+                <input type="tel" placeholder="Mobile Number" required />
+
+                <label class="checkbox">
+                    <input type="checkbox" required />
+                    <span>I agree to the <a href="#">Privacy Policy</a> and updates</span>
+                </label>
+
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+    </div>
+
+
+
+
+    <section id="new-projects" class="new-projects-section">
+        <h2>New Residential Project</h2>
+        <div class="new-projects-container">
+            <div class="project-image">
+                <img src="https://www.alembicrealestate.com/wp-content/uploads/2022/08/seven-features-that-define-a-luxury-apartment-in-vadodara-banner.jpg"
+                    alt="2BHK and 3BHK Flats Gangapur Road Nashik"  height="400">
+            </div>
+            <div class="project-details">
+                <h3>2BHK & 3BHK Premium Flats</h3>
+                <p>
+                    Discover your dream home at our latest residential development located on the prime Gangapur Road,
+                    Nashik. Our 2BHK and 3BHK flats offer modern architecture, spacious layouts, and top-class amenities
+                    designed for comfort and convenience.
+                </p>
+                <ul>
+                    <li>📍 Location: Gangapur Road, Nashik, Maharashtra</li>
+                    <li>🏢 Configuration: 2BHK & 3BHK Flats</li>
+                    <li>🛗 Amenities: Lift, Parking, Security, Power Backup</li>
+                    <li>🧱 Quality construction backed by Yashmeen Construction</li>
+                </ul>
+                <a class="btn">Contact us</a>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+
+
+    <section id="projects" class="projects-section">
+        <h2>Our Projects</h2>
+        <div class="projects-container">
+
+            <div class="project-card">
+                <img src="Screenshot 2025-06-05 004424.png" alt="Shani Mandir Project">
+                <div class="project-info">
+                    <h3>Shani Mandir Construction</h3>
+                    <p>Constructed a beautifully designed Shani Mandir with traditional architecture and durable
+                        materials.</p>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <img src="https://imgs.search.brave.com/xfuIaypbRUBrREpJRhQA6JQIenxsOV1J9wqRSIMl6Ks/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly91cGxv/YWQud2lraW1lZGlh/Lm9yZy93aWtpcGVk/aWEvY29tbW9ucy8x/LzFjL0xldHJlcm9f/ZGVsX0hvc3BpdGFs/X2RlX01lZGluYV9k/ZWxfQ2FtcG8uSlBH"
+                    alt="Government Hospital">
+                <div class="project-info">
+                    <h3>Government Hospital</h3>
+                    <p>Built a fully equipped government hospital with modern facilities and efficient structural
+                        planning.</p>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTfreZkripgBHAtUAwAwbiwnWVVqtj7ONup3lOhttj1VvvJ930E9oFL27DIkwMgRtA-XGo&usqp=CAU"
+                    alt="Village Entry Gate">
+                <div class="project-info">
+                    <h3>Village Entry Gate Chhavadi</h3>
+                    <p>Designed and constructed a welcoming village entry gate that reflects local culture and identity.
+                    </p>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+
+
+
+
+    <section id="services" class="services-section">
+        <h2>Our Services</h2>
+        <div class="services-container">
+
+            <div class="service-card">
+                <img src="https://imgs.search.brave.com/eTr5pIkOP2oN6fVeZMN9OOnn_voyOFjcrFw3Z6SqtRk/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9zdGF0/aWMudmVjdGVlenku/Y29tL3N5c3RlbS9y/ZXNvdXJjZXMvdGh1/bWJuYWlscy8wMTEv/ODI4LzMzMC9zbWFs/bC9jb25zdHJ1Y3Rp/b24tcmVzaWRlbnRp/YWwtbmV3LWhvdXNl/LWluLXByb2dyZXNz/LWF0LWJ1aWxkaW5n/LXNpdGUtcGhvdG8u/anBn"
+                    alt="Residential Construction">
+                <h3>Residential Construction</h3>
+                <p>We build modern homes with strong foundations, elegant design, and long-lasting quality.</p>
+            </div>
+
+            <div class="service-card">
+                <img src="https://imgs.search.brave.com/ULJynq0JTvUhJEBn-KhvM7hKv__7d-VxvqpruWd5EtA/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly9pbWcu/ZnJlZXBpay5jb20v/cHJlbWl1bS1waG90/by91ay1iaXJtaW5n/aGFtXzg0MjcxNy0y/MDM2LmpwZz9zZW10/PWFpc19oeWJyaWQ"
+                    alt="Commercial Projects">
+                <h3>Commercial Projects</h3>
+                <p>From office buildings to shopping malls, we handle all types of commercial construction.</p>
+            </div>
+
+
+
+            <div class="service-card">
+                <img src="https://imgs.search.brave.com/VObz0990QyvoCWRIgILs4NEBgYNfBTFjPlpyVH78wZU/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5pc3RvY2twaG90/by5jb20vaWQvNTEz/MTA2MTQ0L3Bob3Rv/L3RyYWZmaWMtb24t/aGlnaHdheS13aXRo/LWNhcnMuanBnP3M9/NjEyeDYxMiZ3PTAm/az0yMCZjPWRYbTZC/SDZUbklIRnUyMDJQ/bFFKTmRNMTJsWlFC/dDExVGticXg4NXJI/ZFE9"
+                    alt="Road & Infrastructure">
+                <h3>Road & Infrastructure</h3>
+                <p>We develop robust infrastructure including roads, bridges, and drainage systems.</p>
+            </div>
+
+        </div>
+    </section>
+
+
+
+
+
+<section id="team" class="team-section">
+  <h2>Our Team</h2>
+  <div class="team-container">
+
+    <!-- CEO -->
+    <div class="team-card">
+      <img src="jay.jpg" alt="Pritam Patil - CEO">
+      <h3>Mr. Pritam Patil</h3>
+      <p>Chief Executive Officer</p>
+    </div>
+
+    <!-- Manager -->
+    <div class="team-card">
+      <img src="jay.jpg" alt="Raj Patil - Manager">
+      <h3>Mr. Raj Patil</h3>
+      <p>Project Manager</p>
+    </div>
+
+    <!-- Accountant -->
+    <div class="team-card">
+      <img src="jay.jpg" alt="Jay Patil - Accountant">
+      <h3>Mr. Jay Patil</h3>
+      <p>Accountant</p>
+    </div>
+
+    <!-- Site Engineer -->
+    <div class="team-card">
+      <img src="jay.jpg" alt="Vivek Patil - Site Engineer">
+      <h3>Mr. Vivek Patil</h3>
+      <p>Site Engineer</p>
+    </div>
+
+  </div>
+</section>
+
+
+
+
+
+    <section id="about" class="about-section">
+        <h2>About Us</h2>
+        <div class="about-container">
+            <div class="about-text">
+                <p>
+                    We are a trusted name in the construction industry, committed to delivering high-quality
+                    infrastructure and architectural excellence. As a proud subsidiary of <strong>Yashmeen
+                        Construction</strong>, our values are rooted in trust, quality workmanship, and customer
+                    satisfaction.
+                </p>
+                <p>
+                    With years of experience and a strong portfolio of completed projects including religious
+                    structures, public hospitals, and entry gates, we aim to shape the future with durable and
+                    aesthetically pleasing construction.
+                </p>
+                <ul>
+                    <li>🔨 Backed by the legacy of Yashmeen Construction</li>
+                    <li>🏗️ Expertise in residential, commercial, and government projects</li>
+                    <li>🧱 Focus on durability, safety, and design excellence</li>
+                </ul>
+            </div>
+            <div class="about-image">
+                <img src="WhatsApp Image 2025-06-05 at 02.00.01_04e1d8fe.jpg" alt="About Our Company">
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+    <footer class="footer">
+        © <span id="year"></span> PVPATIL. All Rights Reserved.
+    </footer>
+
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
