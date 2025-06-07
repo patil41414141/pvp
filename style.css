@@ -70,7 +70,16 @@
     .dropdown a {
       padding: 10px;
     }
-
+ #pro {
+         color: #ffffff;
+    }
+    
+.dropdown a:hover {
+    background-color: #b90084f0;
+}
+.dropdown p:hover {
+    color: #ffc800dc;  
+}
     .navbar ul li:hover .dropdown {
       display: block;
     }
