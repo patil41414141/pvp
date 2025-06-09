@@ -1,4 +1,4 @@
- * {
+* {
       box-sizing: border-box;
       margin: 0;
       padding: 0;
@@ -7,15 +7,19 @@
 
     body {
       background-color: #f8f8f8;
+     
+  
     }
-
-   h2{
+    /* Apply Dancing Script font to specific elements */
+h2{
   font-family: "Dancing Script", cursive;
   font-optical-sizing: auto;
   font-weight: 500; /* You can change this to 400, 600, or 700 as needed */
   font-style: normal;
 }
 
+
+   
     .navbar {
       display: flex;
       justify-content: space-between;
@@ -23,9 +27,7 @@
       position: relative;
       flex-wrap: wrap;
     }
-    #logo{
-        padding: 2px;
-    }
+    
 #navall{
     background-color: #232222a6;
     position: fixed;
@@ -70,7 +72,7 @@
     .dropdown a {
       padding: 10px;
     }
- #pro {
+    #pro {
          color: #ffffff;
     }
     
@@ -82,6 +84,7 @@
 }
     .navbar ul li:hover .dropdown {
       display: block;
+      
     }
 
     /* Hamburger Menu */
@@ -254,6 +257,9 @@
 .navbar ul li:hover a {
   color: #ffc800dc;
 }
+#pro {
+  color: #f2f2f2;
+}
 
 .navbar ul li:hover a::after {
   width: 100%;
@@ -272,7 +278,7 @@
 
 .services-section {
   padding: 60px 20px;
-  background-color:  #f9f9f9;
+  background-color: #f9f9f9;
   text-align: center;
 }
 
@@ -328,7 +334,7 @@
 
 .projects-section {
   padding: 60px 20px;
-  background-color: #f9f9f9;
+  background-color:  #f9f9f9;
   text-align: center;
 }
 
@@ -340,10 +346,21 @@
 
 .projects-container {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+   grid-template-columns: repeat(3, 1fr); 
   gap: 30px;
   max-width: 1200px;
   margin: 0 auto;
+}
+@media (max-width: 900px) {
+    .projects-container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 600px) {
+    .projects-container {
+        grid-template-columns: 1fr;
+    }
 }
 
 .project-card {
@@ -393,8 +410,6 @@
   color: #f2f2f2;
   
 }
-
-
 
 
 
@@ -466,7 +481,7 @@
 
 .new-projects-section {
   padding: 60px 20px;
-  background-color: #f9f9f9;
+  background-color:  #f9f9f9;
   text-align: center;
 }
 
@@ -558,7 +573,7 @@
 
 .team-section {
   padding: 60px 20px;
-  background-color: #f9f9f9;
+  background-color:  #f9f9f9;
   text-align: center;
 }
 
@@ -615,22 +630,22 @@
 
 
 
+
 #videof {
   width: 560px;
   height: 315px;
   max-width: 100%;
+ 
 }
 
 #videoft {
   width: 560px;
   height: 204px;
   max-width: 100%;
-background-color:#f2f2f2 ;
- 
+ background-color:#f2f2f2 ;
 }
 
-
-/* 📱 Responsive iframe on screens <= 768px */
+/* Responsive iframe on screens */
 @media (max-width: 768px) {
   #videof {
     width: 100%;
@@ -639,3 +654,55 @@ background-color:#f2f2f2 ;
   }
 }
 
+
+
+ 
+/*  slide for cards or project card*/
+
+
+.slider {
+    width: 100%;
+    height: 200px;
+    overflow: hidden;
+    border-radius: 10px;
+    margin-bottom: 12px;
+    display: flex;
+}
+
+.slide {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    flex-shrink: 0;
+    display: none; /* Hide by default */
+}
+
+.slide.active {
+    display: block; /* Show only the active image */
+}
+
+ /*view more  */
+ .project-card.hidden {
+    display: none;
+}
+
+/* View More button */
+.view-more-wrapper {
+    text-align: center;
+    margin-top: 20px;
+}
+
+#viewMoreBtn {
+    padding: 10px 20px;
+    background-color: #d4af37;
+    border: none;
+    color: white;
+    font-size: 16px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#viewMoreBtn:hover {
+    background-color: #bfa132;
+}
