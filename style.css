@@ -279,7 +279,7 @@ h2{
 
 .services-section {
   padding: 60px 20px;
-  background: linear-gradient(to right, #4646466b, #504f4fe0, #4b4b4b);
+  background: #f2f2f2;
   text-align: center;
 }
 
@@ -411,7 +411,7 @@ color: #000000;
 
 .about-section {
   padding: 60px 20px;
- background: linear-gradient(to right, #4646466b, #504f4fe0, #4b4b4b);
+ background: #f2f2f2;
   text-align: center;
 }
 
