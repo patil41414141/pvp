@@ -278,7 +278,7 @@ h2{
 
 .services-section {
   padding: 60px 20px;
-  background-color: #f9f9f9;
+  background: linear-gradient(to right, #4646466b, #504f4fe0, #4b4b4b);
   text-align: center;
 }
 
@@ -334,7 +334,7 @@ h2{
 
 .projects-section {
   padding: 60px 20px;
-  background-color:  #f9f9f9;
+ background: linear-gradient(to right, #4646466b, #504f4fe0, #4b4b4b);
   text-align: center;
 }
 
@@ -415,7 +415,7 @@ h2{
 
 .about-section {
   padding: 60px 20px;
-  background-color: #f9f9f9;
+ background: linear-gradient(to right, #4646466b, #504f4fe0, #4b4b4b);
   text-align: center;
 }
 
@@ -481,7 +481,7 @@ h2{
 
 .new-projects-section {
   padding: 60px 20px;
-  background-color:  #f9f9f9;
+ background: linear-gradient(to right, #4646466b, #504f4fe0, #4b4b4b);
   text-align: center;
 }
 
@@ -573,7 +573,7 @@ h2{
 
 .team-section {
   padding: 60px 20px;
-  background-color:  #f9f9f9;
+ background: linear-gradient(to right, #4646466b, #504f4fe0, #4b4b4b);
   text-align: center;
 }
 
