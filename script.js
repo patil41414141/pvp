@@ -31,6 +31,42 @@
 
 
 
+//code for slide img
+
+   const sliders = document.querySelectorAll('.slider');
+
+  sliders.forEach((slider) => {
+    const slides = slider.querySelectorAll('.slide');
+    let index = 0;
+
+    setInterval(() => {
+      slides[index].classList.remove('active');
+      index = index === 0 ? 1 : 0;
+      slides[index].classList.add('active');
+    }, 4000);
+  });
+    //view more
+    document.getElementById("viewMoreBtn").addEventListener("click", function () {
+        const hiddenCards = document.querySelectorAll(".project-card.hidden");
+        hiddenCards.forEach(card => card.style.display = "block");
+        this.style.display = "none"; // Hide button after expanding
+    });
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
 
 
 
