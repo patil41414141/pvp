@@ -400,16 +400,11 @@ h2{
 
 #new-projects{
  
-   background-image: url('istockphoto-496704973-612x612.jpg'); /* Replace with your image path */
-  background-size: cover;       /* Cover entire section */
-  background-position: center;  /* Center the image */
-  background-repeat: no-repeat; /* Don't repeat the image */
-  height: 100vh; 
+   
 }
 
 #blackt{
-  color: #f2f2f2;
-  
+color: #000000; 
 }
 
 
