@@ -53,7 +53,33 @@
     });
 
 
-  
+  //office
+
+
+ let slideIndex = 0;
+  const slides = document.querySelectorAll(".slider2 .slide");
+
+  function showSlides() {
+    slides.forEach((slide, index) => {
+      slide.classList.remove("active");
+    });
+
+    slideIndex = (slideIndex + 1) % slides.length;
+    slides[slideIndex].classList.add("active");
+  }
+
+  // Initial display
+  slides[slideIndex].classList.add("active");
+
+  // Change slide every 3 seconds
+  setInterval(showSlides, 3000);
+
+
+
+
+
+
+
 
 
 
