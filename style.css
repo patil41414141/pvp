@@ -279,7 +279,7 @@ h2{
 
 .services-section {
   padding: 60px 20px;
-  background: #f2f2f2;
+  background:rgb(32, 33, 36);
   text-align: center;
 }
 
@@ -298,9 +298,9 @@ h2{
 }
 
 .service-card {
-  background-color: #fff;
+   background-color: #F4EBD0;
   padding: 20px;
-  border-radius: 16px;
+ 
   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
   transition: transform 0.3s ease;
 }
@@ -335,7 +335,7 @@ h2{
 
 .projects-section {
   padding: 60px 20px;
- background: linear-gradient(to right, #4646466b, #504f4fe0, #4b4b4b);
+ background: rgb(32, 33, 36);
   text-align: center;
 }
 
@@ -365,7 +365,7 @@ h2{
 }
 
 .project-card {
-  background: #f2f2f2;
+ background-color: #F4EBD0;
   border-radius: 16px;
   overflow: hidden;
   box-shadow: 0 4px 20px rgba(0,0,0,0.08);
@@ -398,20 +398,15 @@ h2{
   line-height: 1.5;
 }
 
-#new-projects{
- 
-   
-}
 
-#blackt{
-color: #000000; 
-}
+
+
 
 
 
 .about-section {
   padding: 60px 20px;
- background: #f2f2f2;
+ background:rgb(32, 33, 36);
   text-align: center;
 }
 
@@ -437,7 +432,7 @@ color: #000000;
 
 .about-text p {
   font-size: 1.1rem;
-  color: #444;
+  color: rgb(216 206 153);
   margin-bottom: 20px;
 }
 
@@ -477,7 +472,7 @@ color: #000000;
 
 .new-projects-section {
   padding: 60px 20px;
- background: #f2f2f2;
+ background:rgb(32, 33, 36);
   text-align: center;
 }
 
@@ -534,17 +529,18 @@ color: #000000;
 
 .btn {
   display: inline-block;
-  background-color: #007BFF;
-  color: #fff;
+  background-color:  rgb(249, 222, 85);
+  color: black;
   padding: 12px 24px;
   border-radius: 6px;
+  font-size: small;
   text-decoration: none;
   font-weight: bold;
   transition: background-color 0.3s ease;
 }
 
 .btn:hover {
-  background-color: #0056b3;
+  background-color:rgb(234, 195, 0);
 }
 
 @media (min-width: 768px) {
@@ -553,7 +549,9 @@ color: #000000;
     justify-content: space-between;
   }
 }
-
+#blackt{
+color: rgb(216 206 153);
+}
 
 
 
@@ -569,7 +567,7 @@ color: #000000;
 
 .team-section {
   padding: 60px 20px;
- background: linear-gradient(to right, #4646466b, #504f4fe0, #4b4b4b);
+ background: rgb(32, 33, 36);
   text-align: center;
 }
 
@@ -588,10 +586,10 @@ color: #000000;
 }
 
 .team-card {
-  background-color: #fff;
-  border-radius: 12px;
+  background-color: rgb(32, 33, 36);
+ 
   padding: 20px;
-  box-shadow: 0 4px 20px rgba(0,0,0,0.08);
+  border-radius: 0%;
   transition: transform 0.3s ease;
 }
 
@@ -604,18 +602,18 @@ color: #000000;
   max-width: 160px;
   height: 160px;
   object-fit: cover;
-  border-radius: 50%;
+  
   margin-bottom: 15px;
 }
 
 .team-card h3 {
   font-size: 1.2rem;
   margin-bottom: 5px;
-  color: #333;
+  color:rgb(216 206 153);
 }
 
 .team-card p {
-  color: #666;
+  color: rgb(255, 255, 255);
   font-size: 1rem;
 }
 
@@ -665,6 +663,8 @@ color: #000000;
     display: flex;
 }
 
+
+
 .slide {
     width: 100%;
     height: 100%;
@@ -690,9 +690,9 @@ color: #000000;
 
 #viewMoreBtn {
     padding: 10px 20px;
-    background-color: #d4af37;
+    background-color:rgb(217, 194, 80);
     border: none;
-    color: white;
+    color: rgb(0, 0, 0);
     font-size: 16px;
     border-radius: 8px;
     cursor: pointer;
@@ -787,4 +787,43 @@ color: #000000;
     font-size: 1rem;
   }
 }
+/*office*/
+.office h2{
+ 
+  font-size: 2.5rem;
+  color: rgb(197, 179, 88);
+  margin-bottom: 40px;
 
+}
+.office {
+ background: rgb(32, 33, 36);
+ text-align: center;
+}
+.slider2 {
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+     
+    
+   
+    display: flex;
+    
+}
+
+.slider2 .slide {
+  width: 100%;
+  height: 100%;
+  display: none;
+  object-fit: cover;
+  transition: opacity 1s ease-in-out;
+ 
+}
+
+.slider2 .slide.active {
+  display: block;
+}
+@media (max-width: 480px) {
+  .slider2 {
+    height: 80vh;
+  }
+}
